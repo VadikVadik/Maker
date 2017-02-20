@@ -1,0 +1,61 @@
+@font-face{
+    font-family: 'Raleway Thin';
+    src: url('../fonts/raleway-thin/raleway-thin.eot');
+    src: url('../fonts/raleway-thin/raleway-thin.eot?iefix') format('eot'),
+    url('../fonts/raleway-thin/Raleway-Thin.woff') format('woff'),
+    url('../fonts/raleway-thin/raleway-thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Raleway Black';
+    src: url('../fonts/raleway-black/raleway-black.eot');
+    src: url('../fonts/raleway-black/raleway-black.eot?iefix') format('eot'),
+    url('../fonts/raleway-black/Raleway-Black.woff') format('woff'),
+    url('../fonts/raleway-black/raleway-black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Yantramanav Black';
+    src: url('../fonts/yantramanav-black/Yantramanav-Black.eot');
+    src: url('../fonts/yantramanav-black/Yantramanav-Black.eot?iefix') format('eot'),
+    url('../fonts/yantramanav-black/Yantramanav-Black.woff') format('woff'),
+    url('../fonts/yantramanav-black/Yantramanav-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Fonts
+$font-raleway-black: 'Raleway Black', Arial, sans-serif;
+$font-Yantramanav: 'Yantramanav Black', Arial, sans-serif;
+
+//Colors
+$main: #191e3f;
+
+//Mixins
+@mixin clearfix(){
+    &::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+body{
+    font-family: 'Raleway Thin', Arial, sans-serif;
+    font-size: 19px;
+    line-height: auto;
+    font-weight: normal;
+}
+.visually_hidden{
+    display: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6, ul, li, p{
+    margin: 0;
+    padding: 0;
+}

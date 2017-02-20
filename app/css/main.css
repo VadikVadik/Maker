@@ -21,12 +21,23 @@
 
 body {
   font-family: 'Raleway Thin', Arial, sans-serif;
-  font-size: 25px;
-  line-height: 35px;
-  font-weight: normal; }
+  font-size: 19px;
+  line-height: auto;
+  font-weight: normal;
+  background: #191e3f;
+  color: #fff; }
+
+a {
+  color: #fff; }
 
 .visually_hidden {
   display: none; }
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-top: 84px;
+  background: url("../img/main-bg.jpg") no-repeat 50% 0, url("../img/main-bg2.jpg") no-repeat 0 1900px, url("../img/main-bg3.jpg") no-repeat 0 100%; }
 
 img {
   max-width: 100%;
@@ -35,3 +46,150 @@ img {
 h1, h2, h3, h4, h5, h6, ul, li, p {
   margin: 0;
   padding: 0; }
+
+.main-header::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.main-header__logo {
+  width: 127px;
+  float: left;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%); }
+
+.main-nav__toggle {
+  display: block;
+  cursor: pointer; }
+
+.main-nav {
+  float: right;
+  margin-top: 30px;
+  margin-right: 17%; }
+
+.main-nav__menu {
+  list-style: none;
+  display: none; }
+
+.main-nav__menu-item {
+  margin-bottom: 10px; }
+
+.main-nav__menu-item a {
+  line-height: 36px;
+  text-decoration: none;
+  opacity: 0.5; }
+
+.main-nav__menu-item a:hover {
+  opacity: 1; }
+
+.main-content {
+  padding-top: 330px; }
+
+.main-content__head {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 76px;
+  line-height: 88px;
+  margin-bottom: 450px; }
+
+.main-block {
+  position: relative; }
+  .main-block::after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.mission {
+  position: relative;
+  padding-top: 160px;
+  margin-bottom: 350px; }
+
+.main-block__head {
+  position: relative;
+  width: 14%;
+  text-align: center;
+  font-family: "Yantramanav Black", Arial, sans-serif;
+  font-size: 286px;
+  line-height: auto;
+  color: rgba(255, 255, 255, 0.03);
+  z-index: 2; }
+
+.main-block__head span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(-90deg);
+      -ms-transform: translate(-50%, -50%) rotate(-90deg);
+          transform: translate(-50%, -50%) rotate(-90deg);
+  font-family: "Raleway Thin", Arial, sans-serif;
+  font-size: 34px;
+  color: #fff; }
+
+.mission__head {
+  float: left;
+  margin-left: 280px; }
+
+.mission__content {
+  position: relative;
+  width: 27%;
+  float: right;
+  margin-top: 110px;
+  margin-right: 18%;
+  z-index: 2; }
+
+.mission__content p {
+  margin-bottom: 22px; }
+
+.mission__img {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 28%;
+  width: 660px;
+  height: 660px;
+  background: #191e3f;
+  -webkit-box-shadow: 0 152px 178px rgba(0, 0, 0, 0.44);
+          box-shadow: 0 152px 178px rgba(0, 0, 0, 0.44); }
+
+.mission__img img {
+  opacity: 0.64; }
+
+.projects__head {
+  float: right;
+  margin-right: 19%;
+  margin-top: 130px; }
+
+.projects__content {
+  position: relative;
+  width: 47%;
+  list-style: none;
+  font-size: 0;
+  padding-top: 320px;
+  margin-left: 20%;
+  z-index: 2; }
+
+.projects__content-item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 84px;
+  margin-bottom: 100px; }
+
+.projects__content-item:nth-of-type(3n) {
+  margin-right: 0; }
+
+.footbal-logo {
+  margin-right: 115px; }
+
+.projects__bg {
+  position: absolute;
+  top: -20%;
+  left: 9%;
+  font-family: "Raleway Black", Arial, sans-serif;
+  font-size: 1296px;
+  line-height: 1296px;
+  color: #191e3f;
+  opacity: 0.6;
+  text-shadow: 0 152px 178px rgba(0, 0, 0, 0.5); }

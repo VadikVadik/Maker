@@ -1,0 +1,33 @@
+.main-header{
+    @include clearfix();
+}
+.main-header__logo{
+    width: 127px;
+    float: left;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.main-nav__toggle{
+    display: block;
+    cursor: pointer;
+}
+.main-nav{
+    float: right;
+    margin-top: 30px;
+    margin-right: 17%;
+}
+.main-nav__menu{
+    list-style: none;
+    display: none;
+}
+.main-nav__menu-item{
+    margin-bottom: 10px;
+}
+.main-nav__menu-item a{
+    line-height: 36px;
+    text-decoration: none;
+    opacity: 0.5;
+}
+.main-nav__menu-item a:hover{
+    opacity: 1;
+}

@@ -50,6 +50,7 @@ body{
     font-weight: normal;
     background: $main;
     color: #fff;
+    margin: 0 auto;
 }
 a{
     color: #fff;
@@ -62,8 +63,8 @@ a{
     margin: 0 auto;
     padding-top: 84px;
     background: url('../img/main-bg.jpg') no-repeat 50% 0,
-                url('../img/main-bg2.jpg') no-repeat 0 1900px,
-                url('../img/main-bg3.jpg') no-repeat 0 100%;
+                url('../img/main-bg2.jpg') no-repeat 50% 1900px,
+                url('../img/main-bg3.jpg') no-repeat 50% 100%;
 }
 img{
     max-width: 100%;

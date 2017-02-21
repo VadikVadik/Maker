@@ -16,11 +16,11 @@
 .mission{
     position: relative;
     padding-top: 160px;
-    margin-bottom: 350px;
+    margin-bottom: 550px;
 }
 .main-block__head{
     position: relative;
-    width: 14%;
+    width: 270px;
     text-align: center;
     font-family: $font-Yantramanav;
     font-size: 286px;
@@ -56,14 +56,17 @@
     position: absolute;
     display: block;
     top: 0;
-    left: 28%;
-    width: 660px;
-    height: 660px;
+    left: 540px;
+    //width: 660px;
+    //height: 660px;
     background: $main;
     box-shadow: 0 152px 178px rgba(0,0,0,0.44);
 }
 .mission__img img{
     opacity: 0.64;
+}
+.projects{
+    padding-bottom: 530px;
 }
 .projects__head{
     float: right;
@@ -85,6 +88,13 @@
     margin-right: 84px;
     margin-bottom: 100px;
 }
+.projects__content-item:hover{
+    transform: scale(1.1);
+}
+.projects__content-item:active{
+    transform: scale(0.9);
+    opacity: 0.5;
+}
 .projects__content-item:nth-of-type(3n){
     margin-right: 0;
 }
@@ -95,6 +105,174 @@
     position: absolute;
     top: -20%;
     left: 9%;
+    font-family: $font-raleway-black;
+    font-size: 1296px;
+    line-height: 1296px;
+    color: $main;
+    opacity: 0.6;
+    text-shadow: 0 152px 178px rgba(0,0,0,0.5);
+}
+.team__block{
+    position: relative;
+}
+.team__block-wrapper{
+    @include clearfix();
+}
+.team__block-wrapper:first-child{
+    margin-bottom: 190px;
+}
+.team__block-wrapper:nth-child(2){
+    margin-bottom: 190px;
+}
+.team__block-wrapper:nth-child(3){
+    padding-bottom: 190px;
+}
+.team__head{
+    float: left;
+    margin-top: -100px;
+    margin-left: 16%;
+}
+.team__block-content{
+    position: relative;
+    z-index: 2;
+}
+.team__block-name{
+    position: relative;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+.team__block-name::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -28px;
+    width: 56px;
+    height: 5px;
+    background: #fff;    
+}
+.team__block-status{
+    margin-bottom: 35px;
+}
+.team__block-descr{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.team__block-foto{
+    position: absolute;
+    background: $main;
+    box-shadow: 0 152px 178px rgba(0,0,0,0.44);
+}
+.team__block-foto img{
+    opacity: 0.2;
+}
+.george{
+    width: 44%;
+    float: right;
+    margin-right: 480px;
+}
+.george__content{
+    width: 370px;
+    margin-top: 345px;
+}
+.george__foto{
+    top: 0;
+    right: 0;
+}
+.kenneth{
+    width: 670px;
+    float: left;
+    margin-left: 360px;
+    @include clearfix();
+}
+.kenneth__content{
+    width: 340px;
+    float: right;
+    margin-top: 240px;
+}
+.kenneth__foto{
+    top: 0;
+    left: 0;
+}
+.richard{
+    width: 510px;
+    float: right;
+    margin-right: 380px;
+    margin-top: 150px;
+}
+.richard__content{
+    margin-top: 255px;
+}
+.richard__foto{
+    top: 0;
+    right: 0;
+}
+.judith{
+    float: left;
+    width: 520px;
+    margin-left: 390px;
+}
+.judith__content{
+    margin-top: 245px;
+}
+.judith__foto{
+    top: 0;
+    right: 0;
+}
+.donald{
+    float: right;
+    width: 600px;
+    margin-top: 230px;
+    margin-right: 270px;
+    @include clearfix();
+}
+.donald__content{
+    float: right;
+    margin-top: 280px;
+}
+.donald__foto{
+    top: 0;
+    left: 0;
+}
+.team__bg{
+    position: absolute;
+    top: 15%;
+    left: 29%;
+    font-family: $font-raleway-black;
+    font-size: 1296px;
+    line-height: 1296px;
+    color: $main;
+    opacity: 0.6;
+    text-shadow: 0 152px 178px rgba(0,0,0,0.5);
+    z-index: -1
+}
+.event{
+    margin-bottom: 350px;
+}
+.event__head{
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    z-index: 2;
+}
+.event__content{
+    position: relative;
+    width: 500px;
+    margin-left: 435px;
+    z-index: 2;
+}
+.event__content-title{
+    font-size: 72px;
+    line-height: 83px;
+    margin-bottom: 50px;
+}
+.event__content-main{
+    margin-bottom: 20px;
+}
+.event__bg{
+    position: absolute;
+    top: -17%;
+    left: 50%;
     font-family: $font-raleway-black;
     font-size: 1296px;
     line-height: 1296px;

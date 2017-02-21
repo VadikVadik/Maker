@@ -2,7 +2,7 @@
     padding-top: 330px;
 }
 .main-content__head{
-    width: 60%;
+    width: 90%;
     text-align: center;
     margin: 0 auto;
     font-size: 76px;
@@ -39,7 +39,7 @@
 }
 .mission__head{
     float: left;
-    margin-left: 280px;
+    margin-left: 14%;
 }
 .mission__content{
     position: relative;
@@ -279,4 +279,412 @@
     color: $main;
     opacity: 0.6;
     text-shadow: 0 152px 178px rgba(0,0,0,0.5);
+}
+@media screen and (max-width: 540px){
+    .wrapper{
+    background: url('../img/main-bg.jpg') no-repeat 50% 0,
+                url('../img/main-bg2.jpg') no-repeat 50% 1400px,
+                url('../img/main-bg3.jpg') no-repeat 50% 100%;
+    }
+    .main-content__head{
+        margin-bottom: 50px;
+    }
+    .main-block__head{
+        float: none;
+        margin:0 auto;
+        width: 100px;
+        font-size: 116px;
+    }
+    .main-block__head span{
+        font-size: 20px;
+    }
+    .mission__img{
+        display: none;
+    }
+    .event__bg, .projects__bg, .team__bg{
+        display: none;
+    }
+    .main-content{
+        padding-top: 100px;
+    }
+    .main-content__head{
+        width: 90%;
+        font-size: 46px;
+        line-height: 58px;
+        margin-bottom: 150px;
+    }
+    .mission{
+        position: relative;
+        padding-top: 0px;
+        margin-bottom: 50px;
+    }
+    .mission__head{
+        color: rgba(255,255,255,0.2);
+    }
+    .mission__content{
+        float: none;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .projects{
+        padding-bottom: 200px;
+    }
+    .projects__content{
+        width: 50%;
+        padding-top: 20px;
+        margin: 0 auto;
+        z-index: 2;
+    }
+    .projects__content-item{
+        margin-bottom: 50px;
+    }
+    .footbal-logo{
+        margin-right:0
+    }    
+    .team__head{
+        color: rgba(255,255,255,0.2);
+    }
+    .team__block-name{
+        font-size: 22px;
+    }
+    
+    .team__block-status{
+        margin-bottom: 25px;
+    }
+    .team__block-descr{
+        font-size: 10px;
+        margin-bottom: 10px;
+}
+    .george{
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+    }
+    .george__content{
+        width: 90%;
+        margin-top: 45px;
+    }
+    .kenneth{
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+    }
+    .kenneth__content{
+        float: none;
+        margin-top: 290px;
+        width: 90%;
+    }
+    .richard{
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+    }
+    .richard__content{
+        margin-top: 290px;
+        width: 90%;
+    }
+    .judith{
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+    }
+    .judith__content{
+        margin-top: 290px;
+        width: 90%;
+    }
+    .donald{
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+    }
+    .donald__content{
+        float: none;
+        margin-top: 320px;
+        width: 90%;
+    }
+    .team__block-wrapper:first-child{
+        margin-bottom: 0px;
+    }
+    .team__block-wrapper:nth-child(2){
+        margin-bottom: 0px;
+    }
+    .team__block-wrapper:nth-child(3){
+        padding-bottom: 290px;
+    }
+    .event{
+        margin-bottom: 150px;
+    }
+    .event__head{
+       margin-bottom: 50px;
+    }
+    .event__content{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .event__content-title{
+        font-size: 52px;
+        line-height: 63px;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (min-width: 540px) and (max-width: 768px){
+    .main-content__head{
+        font-size: 56px;
+        line-height: 68px;
+        margin-bottom: 50px;
+    }
+    .main-block__head{
+        width: 270px;
+        font-size: 286px;
+    }
+    .main-block__head span{
+        font-size: 34px;
+    }
+    .mission{
+        margin-bottom: 100px;
+    }
+    .mission__head{
+        float: left;
+        margin-left: 5%;
+    }
+    .mission__content{
+        width: 40%;
+        margin-top: 40px;
+        margin-right: 5%;
+    }
+    .mission__img{
+        display: none;
+    }
+    .event__bg, .projects__bg, .team__bg{
+        display: none;
+    }
+    .projects{
+        padding-bottom: 100px;
+    }
+    .team__head{
+        float: none;
+    }
+    .team__block-name{
+        font-size: 38px;
+    }
+    
+    .team__block-status{
+        margin-bottom: 35px;
+    }
+    .team__block-descr{
+        font-size: 15px;
+        margin-bottom: 15px;
+}
+    .george{
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+    }
+    .george__content{
+        width: 90%;
+        margin-top: 45px;
+        padding-top: 300px;
+    }
+    .kenneth{
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+    }
+    .kenneth__content{
+        float: none;
+        margin-top: 190px;
+        width: 90%;
+    }
+    .richard{
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+    }
+    .richard__content{
+        margin-top: 390px;
+        width: 90%;
+    }
+    .judith{
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+    }
+    .judith__content{
+        margin-top: 390px;
+        width: 90%;
+    }
+    .donald{
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+    }
+    .donald__content{
+        float: none;
+        margin-top: 420px;
+        width: 90%;
+    }
+    .team__block-wrapper:first-child{
+        margin-bottom: 0px;
+    }
+    .team__block-wrapper:nth-child(2){
+        margin-bottom: 0px;
+    }
+    .team__block-wrapper:nth-child(3){
+        padding-bottom: 290px;
+    }
+    .event{
+        margin-bottom: 150px;
+    }
+    .event__head{
+       margin-bottom: 50px;
+    }
+    .event__content{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .event__content-title{
+        font-size: 52px;
+        line-height: 63px;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (min-width:769px) and (max-width: 1550px){
+    .main-content__head{
+        width: 90%;
+        font-size: 76px;
+        line-height: 88px;
+        margin-bottom: 300px;
+    }
+    .mission{
+        margin-bottom: 300px;
+    }
+    .mission__img{
+        left: 30%;
+    }
+    .mission__head{
+        float: left;
+        margin-left: 5%;
+    }
+    .mission__content{
+        width: 40%;
+        margin-top: 40px;
+        margin-right: 5%;
+    }
+    .projects__head{
+        margin-right: 5%;
+        margin-top: 100px;
+    }
+    .projects__content{
+        width: 610px;
+        margin-left: 15%;
+        padding-top: 450px;
+    }
+    .projects__content-item{
+        margin-right: 24px;
+        margin-bottom: 100px;
+    }
+    .projects__content-item:nth-of-type(2n){
+        margin-right: 0;
+    }
+    .projects__content-item:nth-of-type(3n){
+        margin-right: 24px;        
+    }
+    .projects__bg{
+        top: -10%;
+        left: 0%;
+        font-size: 1000px;
+    }
+    .george{
+        width: 64%;
+        float: right;
+        margin-right: 50px;
+    }
+    .george__content{
+        width: 370px;
+        margin-top: 345px;
+    }
+    .george__foto{
+        top: 0;
+        right: 0;
+    }
+    .kenneth{
+        width: 54%;
+        float: left;
+        margin-left: 60px;
+        @include clearfix();
+    }
+    .kenneth__content{
+        width: 340px;
+        float: right;
+        margin-top: 240px;
+    }
+    .kenneth__foto{
+        top: 0;
+        left: 0;
+    }
+    .richard{
+        width: 510px;
+        float: right;
+        margin-right: 80px;
+        margin-top: 150px;
+    }
+    .richard__content{
+        margin-top: 255px;
+    }
+    .richard__foto{
+        top: 0;
+        right: 0;
+    }
+    .judith{
+        float: left;
+        width: 520px;
+        margin-left: 70px;
+    }
+    .judith__content{
+        margin-top: 245px;
+    }
+    .judith__foto{
+        top: 0;
+        right: 0;
+    }
+    .donald{
+        float: right;
+        width: 500px;
+        margin-top: 230px;
+        margin-right: 10px;
+        @include clearfix();
+    }
+    .donald__content{
+        float: right;
+        margin-top: 280px;
+    }
+    .donald__foto{
+        top: 0;
+        left: 0;
+    }
+    .team__bg{
+        top: 15%;
+        left: 0%;
+        font-size: 1000px;
+    }
+    .event__head{
+        margin-bottom: 100px;
+    }
+    .event__content{
+        position: relative;
+        width: 500px;
+        margin: 0 auto;
+        z-index: 2;
+    }
+    .event__bg{
+        position: absolute;
+        top: -17%;
+        left: 0%;
+        font-family: $font-raleway-black;
+        font-size: 1296px;
+        line-height: 1296px;
+        color: $main;
+        opacity: 0.6;
+        text-shadow: 0 152px 178px rgba(0,0,0,0.5);
+    }
 }

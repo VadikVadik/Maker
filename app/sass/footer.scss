@@ -27,3 +27,11 @@
     line-height: 36px;
     margin-bottom: 64px;
 }
+@media screen and (max-width: 540px){
+    .footer__menu{
+        width: 80%;
+    }
+    .footer__menu-item{
+        margin-right: 7px;
+    }
+}

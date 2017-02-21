@@ -12,13 +12,17 @@
     cursor: pointer;
 }
 .main-nav{
+    position: relative;
     float: right;
     margin-top: 30px;
     margin-right: 17%;
 }
 .main-nav__menu{
+    position: absolute;
+    top: 20px;
+    left: 0;
     list-style: none;
-    display: none;
+    display: block;
 }
 .main-nav__menu-item{
     margin-bottom: 10px;
@@ -30,4 +34,12 @@
 }
 .main-nav__menu-item a:hover{
     opacity: 1;
+}
+@media screen and (max-width: 768px){
+    .wrapper{
+        padding-top: 30px;
+    }
+    .main-header__logo{
+        margin-left: 25%;
+    }
 }

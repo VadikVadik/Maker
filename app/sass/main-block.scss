@@ -57,8 +57,6 @@
     display: block;
     top: 0;
     left: 540px;
-    //width: 660px;
-    //height: 660px;
     background: $main;
     box-shadow: 0 152px 178px rgba(0,0,0,0.44);
 }
@@ -686,5 +684,14 @@
         color: $main;
         opacity: 0.6;
         text-shadow: 0 152px 178px rgba(0,0,0,0.5);
+    }
+}
+@media screen and (min-width:1551px) and (max-width: 1840px){
+    .projects__head{
+        margin-right: 10%;
+    }
+    .projects__content{
+        width: 60%;
+        margin-left: 15%;
     }
 }

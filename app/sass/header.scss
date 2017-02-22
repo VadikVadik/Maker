@@ -20,8 +20,22 @@
 .main-nav__menu{
     position: absolute;
     top: 20px;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     list-style: none;
+    display: block;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(61,65,90,0.95);
+    box-shadow: 0 10px 40px #000;
+}
+.main-nav__menu--close{
+    display: none;
+}
+.main-nav__menu--open{
+    display: block;
+}
+.main-nav__menu--nojs{
     display: block;
 }
 .main-nav__menu-item{
